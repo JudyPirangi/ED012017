@@ -28,7 +28,7 @@ int posiciona_embarcacoes(int m[5][10])
     i=(rand()%5);
     j=(rand()%10);
 
-    if((j==9) || (j==8))      /*Evita a mesma embarcação em linhas diferentes*/
+    if((j==9) || (j==8))      /*Evita a mesma embarcaÃ§Ã£o em linhas diferentes*/
     {
         m[i][j]= 4;
         m[i][j-1]= 4;
